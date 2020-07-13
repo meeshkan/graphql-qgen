@@ -1,0 +1,26 @@
+/bower_components/
+/node_modules/
+/.pulp-cache/
+/output/
+/generated-docs/
+/.psc-package/
+/.psc*
+/.purs*
+/.psa*
+/.spago
+
+# purescript-python
+.pure-py/
+runr
+
+# vscode
+.vscode
+.idea/
+
+# from dockerization
+
+schema.graphql
+work_dir
+
+# pure-py.json
+pure-py.json

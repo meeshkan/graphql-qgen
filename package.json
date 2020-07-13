@@ -1,0 +1,30 @@
+{
+  "name": "runr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-query.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meeshkan/runr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meeshkan/runr/issues"
+  },
+  "homepage": "https://github.com/meeshkan/runr#readme",
+  "dependencies": {
+    "get-graphql-schema": "^2.1.2",
+    "graphql": "^14.7.0",
+    "openapi-to-graphql-cli": "^2.2.3",
+    "purescript": "^0.13.8",
+    "spago": "^0.15.3"
+  }
+}

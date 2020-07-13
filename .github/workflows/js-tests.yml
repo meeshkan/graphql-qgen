@@ -1,0 +1,19 @@
+name: Tests on the javascript backend
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+      - name: Install purescript
+        run: npm install -g purescript
+      - name: Install spago
+        run: npm install -g spago
+      - name: Run tests
+        run: sh test-with-node.sh
