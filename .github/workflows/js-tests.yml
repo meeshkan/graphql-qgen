@@ -16,4 +16,4 @@ jobs:
       - name: Install spago
         run: npm install -g spago
       - name: Run tests
-        run: sh test-with-node.sh
+        run: npx spago -x test.dhall test
